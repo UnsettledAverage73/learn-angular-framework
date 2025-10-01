@@ -1,0 +1,19 @@
+<header class="hero">
+  <h1 class="hero-title">Welcome to practical_3</h1>
+</header>
+
+<section class="container">
+  <h2>Understanding One-Way Data Binding in Angular</h2>
+  <p>One-way data binding in Angular is a mechanism that allows you to display data from your component in the view (HTML) and react to user input, but changes in the view do not directly update the component's data. It's a flow of data in a single direction: from component to view, or from view (user events) to component (event binding, not covered here).</p>
+
+  <h3>Property Binding</h3>
+  <p>Property binding allows you to bind a property of a DOM element or a directive to a property of your component. This is often used for setting attributes like `src` for an image, `disabled` for a button, or `value` for an input field.</p>
+  <app-property-binding></app-property-binding>
+
+  <h3>Attribute Binding</h3>
+  <p>Attribute binding is used when you need to bind to an attribute that doesn't correspond to a DOM property, or when you need to set attributes like `colspan`, `aria-label`, etc. Angular handles this by setting the attribute directly on the element.</p>
+  <app-attribute-binding></app-attribute-binding>
+
+</section>
+
+
